@@ -5,7 +5,6 @@ Dockerfile
 Makefile
 *.xml
 loadtest.bat
-*.txt
 data/all_external_settings_old.json
 data/all_internal_settings.json
 data/all_internal_settings_110.json
@@ -14,3 +13,4 @@ data/all_internal_settings_5devices.json
 data/all_internal_settings_single.json
 *.log
 *.html
+ssh-ports.txt
