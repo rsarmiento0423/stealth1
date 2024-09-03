@@ -1,0 +1,25 @@
+# azure-pipelines.yml
+trigger:
+- main  # Change this to the branch you want to trigger the pipeline on
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+steps:
+- task: Checkout@1
+  inputs:
+    repository: 'self'
+  
+- task: UsePythonVersion@0
+  inputs:
+    versionSpec: '3.10'
+    addToPath: true
+
+- script: |
+    python -m pip install --upgrade pip
+    pip install -r requirements.txt
+  displayName: 'Install dependencies'
+
+- script: |
+    pytest -v -m regression
+  displayName: 'Run tests'
