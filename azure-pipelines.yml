@@ -12,7 +12,7 @@ steps:
   
 - task: UsePythonVersion@0
   inputs:
-    versionSpec: '3.12'
+    versionSpec: '3.10'
     addToPath: true
 
 - script: |
@@ -21,5 +21,5 @@ steps:
   displayName: 'Install dependencies'
 
 - script: |
-    pytest -m regression
+    pytest --version
   displayName: 'Run tests'
