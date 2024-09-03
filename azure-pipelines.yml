@@ -22,5 +22,5 @@ steps:
   displayName: 'Set up virtual environment and Install dependencies'
 
 - script: |
-    pytest -v test_flow1.py
+    python -m pytest -v test_flow1.py
   displayName: 'Run tests'
