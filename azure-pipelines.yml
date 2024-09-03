@@ -1,6 +1,6 @@
 # azure-pipelines.yml
 trigger:
-- main  # Change this to the branch you want to trigger the pipeline on
+- main  # Change this to the branch you want to trigger the pipeline
 
 pool:
   vmImage: 'ubuntu-latest'
