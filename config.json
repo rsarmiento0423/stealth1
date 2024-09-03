@@ -1,0 +1,10 @@
+{
+    "HOST": "https://trk-spsf-dev-test.azure-api.net",
+    "deviceID1": "001f7b3f2094",
+    "deviceID2": "001f7b3f1d3c",
+    "deviceID3": "001f7b3efe62",
+    "car1": "kaveh-testcar2",
+    "car2": "kaveh-testcar3",
+    "qr_code1": "F0-220324-O20660",
+    "qr_code2": "F0-270424-O20237"
+}

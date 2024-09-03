@@ -1,0 +1,11 @@
+{
+    "correlationId": "1919191991",
+    "deviceIds": ["changethis"],
+    "patch": {
+        "ON_DEMAND_SCAN": 1,
+        "ON_DEMAND_SCAN_DUR_SEC": 55555,
+        "UPLOAD_LOG_MIN": 444,
+        "SYSTEM_RESET_FLAG": 1,
+        "SELF_TEST": 1
+    }
+}
