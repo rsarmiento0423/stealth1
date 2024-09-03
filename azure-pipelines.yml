@@ -21,5 +21,5 @@ steps:
   displayName: 'Install dependencies'
 
 - script: |
-    pytest --version
+    pytest -v test_flow1.py
   displayName: 'Run tests'
