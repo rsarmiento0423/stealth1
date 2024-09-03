@@ -6,7 +6,6 @@ import random
 from datetime import datetime
 import requests
 
-
 def get_request(endpoint, expected_status):
     """get_request"""
     resp = requests.get(os.environ.get("HOST") + endpoint, timeout=2)
